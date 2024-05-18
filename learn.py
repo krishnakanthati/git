@@ -20,4 +20,4 @@ while q:
         if not vis[i]:
             q.appendleft(i)
             vis[i] = 1
-print(bfs)
+print(bfs) # [1, 2, 6, 3, 4, 7, 9, 5, 8]
